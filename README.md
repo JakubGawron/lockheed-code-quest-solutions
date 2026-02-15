@@ -10,6 +10,6 @@ https://lmcodequestacademy.com/
 - **Practice:**&nbsp;&nbsp;✅ |██████████| 100.00% (2/2)  
 - **Easy:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ |██████████| 100.00% (100/100)  
 - **Medium:**&nbsp;✅ |██████████| 100.00% (103/103)  
-- **Hard:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🚧 |░░░░░░░░░░| 0.03%   (2/72)  
+- **Hard:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🚧 |░░░░░░░░░░| 2.78%   (2/72)  
 
 The **hard** section contains problems I am currently working on and plan to solve as I continue improving my problem-solving skills.
