@@ -1,9 +1,9 @@
-# CodeQuest - Contest Solutions
+# Lockheed Martin Code Quest - Contest Solutions
 
-This repository contains my **solutions** to **CodeQuest programming contest problems**.  
+This repository contains my **solutions** to **Lockheed Martin Code Quest programming contest problems**.  
 It serves as a structured archive of challenges I have solved while developing my skills in **algorithms, data structures, and competitive programming**.
 
-The problems included here come from past CodeQuest contests from:  
+The problems included here come from past Lockheed Martin Code Quest contests from:  
 https://lmcodequestacademy.com/
 
 ## 📊 Progress (as of 02-15-2026)
