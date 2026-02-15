@@ -1,0 +1,23 @@
+import sys
+input = lambda: sys.stdin.readline().rstrip()
+#import json
+import math
+#import string
+#import re
+
+from decimal import Decimal, ROUND_HALF_UP
+def halfUpRound(value, q = 0, type = 'string'):
+    rounded = Decimal(str(value)).quantize(Decimal('1').scaleb(-q), rounding=ROUND_HALF_UP)
+    if rounded == Decimal('0'):
+        rounded = abs(rounded)
+    if type == 'string':
+        return format(rounded, f'.{q}f')
+    return float(rounded)
+
+for _ in range(int(input())):
+    M, N = map(int, input().split())
+    forb_norm = 0
+    for _ in range(M):
+        for num in input().split():
+            forb_norm += math.pow(abs(int(num)), 2)
+    print(halfUpRound(math.sqrt(forb_norm), 2))
