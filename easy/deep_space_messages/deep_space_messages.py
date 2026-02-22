@@ -6,4 +6,4 @@ import re
 
 for _ in range(int(input())):
     numbers = re.findall(r'\d+', input())
-    print([string.ascii_lowercase[int(number) - 1] for number in numbers])
+    print(''.join([string.ascii_lowercase[int(number) - 1] for number in numbers]))

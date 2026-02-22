@@ -18,7 +18,7 @@ for _ in range(int(input())):
         ''.join(re.findall(r'[A-Z-]', encoded)).replace('-', ' '), 
         ''.join(re.findall(r'[a-z=]', encoded)).replace('=', ' ')
     ]
-
+    
     for i in range(2):
         if i == 1: print()
         start = 0
