@@ -1,20 +1,24 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
 import math
-#import string
-#import re
+
+# import string
+# import re
+
 
 class Point:
     def __init__(self, x, y):
         self.x = x
         self.y = y
-    
+
     def distance(self):
-        return math.sqrt(self.x ** 2 + self.y ** 2)
-    
+        return math.sqrt(self.x**2 + self.y**2)
+
     def __repr__(self):
-        return f'{self.x} {self.y}'
-    
+        return f"{self.x} {self.y}"
+
+
 for test in range(int(input())):
     asteroids = int(input())
     points = []

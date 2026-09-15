@@ -1,18 +1,19 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
-    a, b, c = map(int, input().split(', '))
+    a, b, c = map(int, input().split(", "))
 
     if a + b > c and a + c > b and b + c > a:
         if a == b == c:
-            print('Equilateral')
+            print("Equilateral")
         elif a == b or b == c or c == a:
-            print('Isosceles')
+            print("Isosceles")
         else:
-            print('Scalene')
+            print("Scalene")
     else:
-        print('Not a Triangle')
+        print("Not a Triangle")

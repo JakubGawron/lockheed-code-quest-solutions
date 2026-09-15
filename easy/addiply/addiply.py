@@ -1,10 +1,11 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 cases = int(input())
 for _ in range(cases):
-    a, b = map(int, input())
+    a, b = map(int, input().split())
     print(a + b, a * b)

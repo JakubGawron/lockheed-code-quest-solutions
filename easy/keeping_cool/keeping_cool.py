@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     N, L, A, H = map(float, input().split())
@@ -10,10 +11,10 @@ for _ in range(int(input())):
     temperatures = list(map(float, input().split()))
 
     if any(temperature < L for temperature in temperatures):
-        print('TOO COOL')
+        print("TOO COOL")
     elif any(temperature > H for temperature in temperatures):
-        print('TOO HOT')
+        print("TOO HOT")
     elif sum(temperatures) / N > A:
-        print('WARNING')
+        print("WARNING")
     else:
-        print('OK')
+        print("OK")

@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     channel1 = map(float, input().split())
@@ -15,9 +16,11 @@ for _ in range(int(input())):
 
     if multipaction:
         if len(multipaction) != 1:
-            indexes = ' '.join(multipaction)
-            print(f'{len(multipaction)} multipaction events were detected at time indices: {indexes}.')
+            indexes = " ".join(multipaction)
+            print(
+                f"{len(multipaction)} multipaction events were detected at time indices: {indexes}."
+            )
         else:
-            print(f'A multipaction event was detected at time index {multipaction[0]}.')
+            print(f"A multipaction event was detected at time index {multipaction[0]}.")
     else:
-        print('No multipaction events detected.')
+        print("No multipaction events detected.")

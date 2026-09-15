@@ -1,16 +1,17 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     instructions = {}
     for _ in range(int(input())):
-        instruction = input()[1:-1].split(', ') 
-        instructions[''.join(instruction[:2])] = instruction[2:]
+        instruction = input()[1:-1].split(", ")
+        instructions["".join(instruction[:2])] = instruction[2:]
     tape = input().split()
-    state = 'A'
+    state = "A"
     len_tape = len(tape)
     i = len_tape // 2
 
@@ -21,10 +22,10 @@ for _ in range(int(input())):
             continue
         instruction = instructions[key]
         tape[i] = instruction[0]
-        if instruction[1] == 'R':
+        if instruction[1] == "R":
             i += 1
         else:
             i -= 1
         state = instruction[2]
-    
-    print(' '.join(tape))
+
+    print(" ".join(tape))

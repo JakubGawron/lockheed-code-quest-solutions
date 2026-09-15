@@ -1,8 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
 import math
-#import string
-#import re
+
+# import string
+# import re
 
 for _ in range(int(input())):
     fuelLeft, N = map(int, input().split())
@@ -18,17 +20,18 @@ for _ in range(int(input())):
                 if contents[i] == capacities[i]:
                     unfilledTanks -= 1
         highestLevel += 1
-    
+
     for i in range(N):
-        if i != 0: print(' ', end='')
+        if i != 0:
+            print(" ", end="")
         if contents[i] == capacities[i]:
-            print(contents[i], end='')
+            print(contents[i], end="")
         else:
             gcd = math.gcd(fuelLeft, unfilledTanks)
             denominator = int(unfilledTanks / gcd)
             if denominator == 1:
-                print(contents[i], end='')
+                print(contents[i], end="")
             else:
                 numerator = int((highestLevel * denominator) + (fuelLeft / gcd))
-                print(f'{numerator}/{denominator}', end='')
+                print(f"{numerator}/{denominator}", end="")
     print()

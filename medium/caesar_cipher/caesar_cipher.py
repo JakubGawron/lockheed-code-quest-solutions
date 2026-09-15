@@ -1,8 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
+# import math
 import string
-#import re
+
+# import re
 
 alp = string.ascii_lowercase
 for _ in range(int(input())):
@@ -10,7 +12,7 @@ for _ in range(int(input())):
     cipher = input()
     key = alp[shift:] + alp[:shift]
     for letter in cipher:
-        if letter != ' ':
+        if letter != " ":
             letter = alp[key.index(letter)]
-        print(letter, end='')
+        print(letter, end="")
     print()

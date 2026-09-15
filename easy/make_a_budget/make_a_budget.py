@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     C, T = map(int, input().split())
@@ -17,11 +18,11 @@ for _ in range(int(input())):
         category, type, amount = input().split()
         amount = int(amount)
 
-        if type == '+':
-            print('YES')
+        if type == "+":
+            print("YES")
             budget[category] += amount
         elif amount <= budget[category]:
-            print('YES')
+            print("YES")
             budget[category] -= amount
         else:
-            print('NO')
+            print("NO")

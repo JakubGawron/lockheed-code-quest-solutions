@@ -1,19 +1,20 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
-    a, b, target = map(int , input().split())
+    a, b, target = map(int, input().split())
 
     if a + b == target:
-        print('Addition')
+        print("Addition")
     elif a - b == target:
-        print('Subtraction')
+        print("Subtraction")
     elif a * b == target:
-        print('Multiplication')
+        print("Multiplication")
     elif b != 0 and a // b == target:
-        print('Division')
+        print("Division")
     else:
-        print('Modulo')
+        print("Modulo")

@@ -1,12 +1,14 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
+
 
 def multiplyMatrices(a, b):
     b = list(zip(*b))
-    return [[str(sum(x*y for x, y in zip(row, col))) for col in b] for row in a]
+    return [[str(sum(x * y for x, y in zip(row, col))) for col in b] for row in a]
 
 
 for _ in range(int(input())):
@@ -15,6 +17,6 @@ for _ in range(int(input())):
     b = [tuple(map(int, input().split())) for _ in range(P)]
     if M == P:
         c = multiplyMatrices(a, b)
-        print('\n'.join([' '.join(row) for row in c]))
+        print("\n".join([" ".join(row) for row in c]))
     else:
-        print('undefined')
+        print("undefined")

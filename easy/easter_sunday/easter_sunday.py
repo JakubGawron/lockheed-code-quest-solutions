@@ -1,8 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
 import math
-#import string
-#import re
+
+# import string
+# import re
 
 for _ in range(int(input())):
     y = int(input())
@@ -19,15 +21,14 @@ for _ in range(int(input())):
     f = (11 * m + 11) % 30
 
     day = 22 + d + e
-    month = '03'
+    month = "03"
     if day > 31:
         day -= 31
-        month = '04'
+        month = "04"
 
     if d == 28 and e == 6 and f < 19:
         day = 18
     elif d == 29 and e == 6:
         day = 19
 
-    print(f'{y}/{month}/{str(day).zfill(2)}')
-        
+    print(f"{y}/{month}/{str(day).zfill(2)}")

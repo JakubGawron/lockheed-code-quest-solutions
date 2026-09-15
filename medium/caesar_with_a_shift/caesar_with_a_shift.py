@@ -1,9 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-import string
-#import re
+# import math
+# import re
 import itertools
+import string
 
 alphabet = string.ascii_lowercase
 for _ in range(int(input())):
@@ -13,7 +14,7 @@ for _ in range(int(input())):
 
     for letter in cipher:
         if letter in alphabet:
-            direction = 1 if next(directions) == 0 else -1 
+            direction = 1 if next(directions) == 0 else -1
             letter = alphabet[(alphabet.index(letter) + direction * next(shift)) % 26]
-        print(letter, end='')
+        print(letter, end="")
     print()

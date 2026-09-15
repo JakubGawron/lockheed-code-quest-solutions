@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 dec = [-15, -13, -11, -10, -8, -5, -4, -2, 1, 5, 12]
 
 for _ in range(int(input())):

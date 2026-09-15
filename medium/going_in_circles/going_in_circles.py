@@ -1,8 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
+
 
 class CircularBuffer:
     def __init__(self, size):
@@ -42,7 +44,11 @@ class CircularBuffer:
             print(self.buffer[self.overfit(self.read, mid)])
         else:
             mid = self.count // 2
-            print(self.buffer[self.overfit(self.read, mid - 1)], self.buffer[self.overfit(self.read, mid)])
+            print(
+                self.buffer[self.overfit(self.read, mid - 1)],
+                self.buffer[self.overfit(self.read, mid)],
+            )
+
 
 for _ in range(int(input())):
     N, S = map(int, input().split())
@@ -50,8 +56,11 @@ for _ in range(int(input())):
 
     for _ in range(N):
         command = input().split(maxsplit=1)
-        if command[0] == 'ADD': cb.__add__(command[1].split())
-        
-        elif command[0] == 'CONSUME': cb.__consume__(int(command[1]))
+        if command[0] == "ADD":
+            cb.__add__(command[1].split())
 
-        elif command[0] == 'SHOW': cb.__show__()
+        elif command[0] == "CONSUME":
+            cb.__consume__(int(command[1]))
+
+        elif command[0] == "SHOW":
+            cb.__show__()

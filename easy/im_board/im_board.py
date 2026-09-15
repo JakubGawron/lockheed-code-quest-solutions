@@ -1,10 +1,11 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     num = int(input())
     for _ in range(num):
-        print(('# '*num)[:-1])
+        print(("# " * num)[:-1])

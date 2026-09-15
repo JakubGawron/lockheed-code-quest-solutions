@@ -1,8 +1,10 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
+# import math
 import string
-#import re
+
+# import re
 
 for _ in range(int(input())):
     word = input()

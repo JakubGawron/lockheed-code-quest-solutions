@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     hierarchy = {}
@@ -23,4 +24,4 @@ for _ in range(int(input())):
         while current in hierarchy:
             current = hierarchy[current]
             chain.append(current)
-        print('/'.join(chain))
+        print("/".join(chain))

@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     X, Y = map(int, input().split())
@@ -11,5 +12,5 @@ for _ in range(int(input())):
         all.add(input())
     for _ in range(Y):
         working.add(input())
-    for syst in sorted(all-working, key=str.lower):
+    for syst in sorted(all - working, key=str.lower):
         print(syst)

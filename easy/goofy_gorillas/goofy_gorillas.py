@@ -1,12 +1,13 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     G1, G2 = input().split()
     if G1 == G2:
-        print('true')
+        print("true")
     else:
-        print('false')
+        print("false")

@@ -1,8 +1,9 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
     counted = []
@@ -10,7 +11,7 @@ for _ in range(int(input())):
     lenght = len(numbers)
     counter = 0
 
-    response = 'FALSE'
+    response = "FALSE"
     for num in numbers:
         if num in counted:
             continue
@@ -19,7 +20,7 @@ for _ in range(int(input())):
 
         n = numbers.count(num)
         if n == 3:
-            response = 'TRUE'
+            response = "TRUE"
             break
 
         counter += n

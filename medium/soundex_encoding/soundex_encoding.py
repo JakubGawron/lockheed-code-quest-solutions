@@ -1,21 +1,15 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-import re
+# import math
+# import string
 import re
 
+
 def soundex(name):
-    groups = {
-        '1': 'bfpv',
-        '2': 'cgjkqsxz',
-        '3': 'dt',
-        '4': 'l',
-        '5': 'mn',
-        '6': 'r'
-    }
-    vowels = 'aeiouy'
-    wild = 'hw'
+    groups = {"1": "bfpv", "2": "cgjkqsxz", "3": "dt", "4": "l", "5": "mn", "6": "r"}
+    vowels = "aeiouy"
+    wild = "hw"
     name = name.lower()
 
     changed = True
@@ -40,17 +34,17 @@ def soundex(name):
             else:
                 i += 1
 
-        name = ''.join(new)
+        name = "".join(new)
 
     first = name[0].upper()
-    name = re.sub(f'[{vowels}{wild}]', '', name[1:])
+    name = re.sub(f"[{vowels}{wild}]", "", name[1:])
 
     code = name
     for num, letters in groups.items():
-        code = re.sub(f'[{letters}]', num, code)
-    code = re.sub(r'[a-z]', '0', code)
+        code = re.sub(f"[{letters}]", num, code)
+    code = re.sub(r"[a-z]", "0", code)
 
-    return first + (code + '000')[:3]
+    return first + (code + "000")[:3]
 
 
 for _ in range(int(input())):
@@ -62,5 +56,5 @@ for _ in range(int(input())):
         else:
             soundexes[sd] += 1
 
-    print('OUTPUT')
-    print('\n'.join(f'{sd} {soundexes[sd]}' for sd in sorted(soundexes)))
+    print("OUTPUT")
+    print("\n".join(f"{sd} {soundexes[sd]}" for sd in sorted(soundexes)))

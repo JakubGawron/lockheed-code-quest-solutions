@@ -1,20 +1,21 @@
 import sys
+
 input = lambda: sys.stdin.readline().rstrip()
-#import math
-#import string
-#import re
+# import math
+# import string
+# import re
 
 for _ in range(int(input())):
-    result = 'VALID'
+    result = "VALID"
     try:
-        addr = list(map(int, input().split('.')))
+        addr = list(map(int, input().split(".")))
         if len(addr) != 4:
-            result = 'INVALID'
+            result = "INVALID"
         else:
             for num in addr:
                 if num > 255 or num < 0:
-                    result = 'INVALID'
+                    result = "INVALID"
                     break
     except Exception:
-        result = 'INVALID'
+        result = "INVALID"
     print(result)
