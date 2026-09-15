@@ -23,5 +23,5 @@ The **hard** section contains problems I am currently working on and plan to sol
 
 - **Author:** Jakub Gawron
 - **GitHub:** [github.com/JakubGawron](https://github.com/JakubGawron)
-- **Repository:** [github.com/JakubGawron/CodeQuest](https://github.com/JakubGawron/CodeQuest)
+- **Repository:** [github.com/JakubGawron/lockheed-code-quest-solutions](https://github.com/JakubGawron/lockheed-code-quest-solutions)
 - **Contact:** [contact.jakub.gawron@gmail.com](mailto:contact.jakub.gawron@gmail.com)
