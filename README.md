@@ -1,9 +1,9 @@
 # Lockheed Martin Code Quest - Contest Solutions
 
-<div align="center" style="display: flex;">
-  <img src="./images/participant-badge-2025.png" alt="Code Quest 2025 Participant" width="50%">
-  <img src="./images/participant-badge-2026.png" alt="Code Quest 2026 Participant" width="50%">
-</div>
+<p align="center">
+  <img src="./images/participant-badge-2025.png" alt="Code Quest 2025 Participant" width="49%">
+  <img src="./images/participant-badge-2026.png" alt="Code Quest 2026 Participant" width="49%">
+</p>
 
 <p align="center">
   <img alt="Participant" src="https://img.shields.io/badge/Code%20Quest-2025%20Participant-purple">
@@ -16,9 +16,9 @@
   <img alt="Platform" src="https://img.shields.io/badge/platform-cross--platform-lightgrey">
   <img alt="Status" src="https://img.shields.io/badge/Status-Learning%20project-yellow">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JakubGawron/cs2-storage-unit-tracker">
-  <img alt="GitHub issues" src="https://img.shields.io/github/issues/JakubGawron/cs2-storage-unit-tracker">
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/JakubGawron/cs2-storage-unit-tracker">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JakubGawron/lockheed-code-quest-solutions">
+  <img alt="GitHub issues" src="https://img.shields.io/github/issues/JakubGawron/lockheed-code-quest-solutions">
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/JakubGawron/lockheed-code-quest-solutions">
 </p>
 
 ---
