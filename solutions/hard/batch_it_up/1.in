@@ -1,0 +1,18 @@
+1
+3
+<parts>
+<part name="Thing" serial="123" number="ABC" />
+<part serial="456" number="DEF" name="Other Thing" />
+<part number="ABC" name="Thing">456</part>
+<part number="123" name="Doohickey">ABC</part>
+<part>
+<number>JKL1</number>
+<serial>42</serial>
+<name>Wrench</name>
+</part>
+<part>
+<name>Spanner</name>
+<number>JKL1</number>
+<serial>999</serial>
+</part>
+</parts>

@@ -1,0 +1,4 @@
+1 New>Draft>Preliminary Review>Waiting Preliminary>Preliminary Review>Final Review>Rejected>Customer Notified
+2 New>Invalid Command>Draft>Preliminary Review>Final Review>Approved>Customer Notified
+3 Invalid Command>New>Draft>Preliminary Review>Rejected>Customer Notified>Invalid Command
+4 New>Draft>Preliminary Review>Final Review>Waiting Final>Final Review>Approved>Customer Notified

@@ -1,0 +1,19 @@
+[project]
+name = "lockheed-code-quest-solutions"
+version = "1.0.0"
+description = "Lockheed Martin Code Quest solutions to past programming contest problems. This repository showcases my growth in algorithms, data structures, and competitive programming, with solved practice, easy, and medium challenges and ongoing work on hard problems from CodeQuest Academy."
+readme = "README.md"
+authors = [
+    { name = "Jakub Gawron", email = "contact.jakub.gawron@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-xdist>=3.8.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["test_solutions.py"]

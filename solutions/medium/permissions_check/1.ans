@@ -1,0 +1,6 @@
+./lookHere:
+file1: WRONG PERM: Owner, Group
+./lookHere/directory1: ALL GOOD
+./lookHere:
+directory1: WRONG PERM: Owner, Group, Other
+./lookHere/directory1: ALL GOOD

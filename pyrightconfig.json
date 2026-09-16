@@ -1,0 +1,4 @@
+{
+    "typeCheckingMode": "strict",
+    "ignore": ["easy/**", "medium/**", "hard/**", "practice/**", "**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+}
