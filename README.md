@@ -1,8 +1,20 @@
-# Lockheed Martin Code Quest - Contest Solutions
+<h1 align="center">Lockheed Martin Code Quest - Contest Solutions</h1>
 
 <p align="center">
   <img src="./images/participant-badge-2025.png" alt="Code Quest 2025 Participant" width="49%">
   <img src="./images/participant-badge-2026.png" alt="Code Quest 2026 Participant" width="49%">
+</p>
+
+<p align="center">
+  <a href="./README.pl.md">Polska dokumentacja</a>
+</p>
+
+<p align="center">
+  This repository is a structured archive of my solutions to past
+  <strong>Lockheed Martin Code Quest</strong> contest problems, sourced from the
+  <a href="https://lmcodequestacademy.com/">Code Quest Academy</a>.
+  All solutions included here have been <strong>submitted to and confirmed as correct</strong>
+  on the Code Quest Academy site.
 </p>
 
 <p align="center">
@@ -11,7 +23,7 @@
   <br>
   <img alt="Python version" src="https://img.shields.io/badge/python-%3E%3D3.14-blue?logo=python&logoColor=white">
   <img alt="Built with uv" src="https://img.shields.io/badge/built%20with-uv-DE5FE9?logo=uv&logoColor=white">
- <!--<img alt="Code style: Ruff" src="https://img.shields.io/badge/code%20style-ruff-black?logo=ruff&logoColor=white">-->
+  <img alt="Code style: Ruff" src="https://img.shields.io/badge/code%20style-ruff-black?logo=ruff&logoColor=white">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-informational">
   <img alt="Platform" src="https://img.shields.io/badge/platform-cross--platform-lightgrey">
   <img alt="Status" src="https://img.shields.io/badge/Status-Learning%20project-yellow">
@@ -23,9 +35,7 @@
 
 ---
 
-> **Note:** This repository was created for **learning and preparation purposes** — to sharpen algorithm, data structure, and competitive programming skills ahead of participating in newer editions of the Lockheed Martin Code Quest contest. Code Quest is a **team contest**, and I have taken part in **2** editions so far as part of a team: **2025** (placed **4th**) and **2026** (placed **8th**). It is not an official Lockheed Martin resource.
-
-This repository is a structured archive of my solutions to past **Lockheed Martin Code Quest** contest problems, sourced from the [Code Quest Academy](https://lmcodequestacademy.com/). All solutions included here have been **submitted to and confirmed as correct** on the Code Quest Academy site.
+> **Note:** This repository was created for **learning and preparation purposes** - to sharpen algorithm, data structure, and competitive programming skills ahead of participating in newer editions of the Lockheed Martin Code Quest contest. Code Quest is a **team contest**, and I have taken part in **2** editions so far as part of a team: **2025** (placed **4th**) and **2026** (placed **8th**). It is not an official Lockheed Martin resource.
 
 ---
 
@@ -104,7 +114,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 python -m pip install "pytest>=9.1.1" "pytest-xdist>=3.8.0"
 ```
 
-**Running tests** (identical commands once the venv is active — just drop the `uv run` prefix):
+**Running tests** (identical commands once the venv is active - just drop the `uv run` prefix):
 
 ```bash
 pytest -v                 # run everything
