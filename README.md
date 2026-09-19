@@ -31,14 +31,16 @@ This repository is a structured archive of my solutions to past **Lockheed Marti
 
 ## 📊 Progress (as of 16 September 2026)
 
-- **Practice:**&nbsp;&nbsp;✅ |██████████| 100.00% (2/2)
-- **Easy:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🚧 |█████████░| &nbsp;&nbsp;89.29% (100/112)
-- **Medium:**&nbsp;🚧 |█████████░| &nbsp;&nbsp;91.96% (103/112)
-- **Hard:**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🚧 |█░░░░░░░░░| &nbsp;&nbsp;13.58% (11/81)
+| Tier      | Status |    Progress    | Completion |        Solved |
+| :-------- | :----: | :------------: | ---------: | ------------: |
+| Practice  |   ✅   |   ▰▰▰▰▰▰▰▰▰▰   |    100.00% |         2 / 2 |
+| Easy      |   🟡   |   ▰▰▰▰▰▰▰▰▰▱   |     89.29% |     100 / 112 |
+| Medium    |   🟡   |   ▰▰▰▰▰▰▰▰▰▱   |     91.96% |     103 / 112 |
+| Hard      |   🟡   |   ▰▱▱▱▱▱▱▱▱▱   |     13.58% |       11 / 81 |
+| &nbsp;    | &nbsp; |     &nbsp;     |     &nbsp; |        &nbsp; |
+| **Total** | **📊** | **▰▰▰▰▰▰▰▱▱▱** | **70.36%** | **216 / 307** |
 
 ---
-
-You can install and run it using either `uv` (recommended) or standard `pip`.
 
 ## 🧪 Testing Harness
 
