@@ -1,4 +1,14 @@
 {
     "typeCheckingMode": "strict",
-    "ignore": ["easy/**", "medium/**", "hard/**", "practice/**", "**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+    "ignore": [
+        "solutions/easy",
+        "solutions/medium/**",
+        "solutions/hard/**",
+        "solutions/practice/**",
+        "private-templates/**",
+        "**/node_modules",
+        "**/__pycache__",
+        "**/.*",
+        ".venv"
+    ]
 }

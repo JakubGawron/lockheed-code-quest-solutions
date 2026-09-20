@@ -1,15 +1,3 @@
-easy/bricks_timator/
-easy/card_rank_counter/
-easy/delayed_graphics/
-easy/doomsday/
-easy/last_but_not_least/
-easy/planetary_weight_converter/
-easy/running_on_fumes/
-easy/sheepherders/
-easy/sky_duel/
-easy/smoothie_stand/
-easy/tla/
-easy/to_catch_a_satellite/
 hard/a_matter_of_0s_and_1s/
 hard/alien_waveform/
 hard/ascii_squares/
@@ -52,7 +40,6 @@ hard/pathfinder/
 hard/piece_by_piece/
 hard/playfair_cipher/
 hard/plink/
-hard/presidential_escort/
 hard/race_to_the_finish/
 hard/reschedule_it/
 hard/root_cause/
@@ -85,7 +72,6 @@ medium/apportionment/
 medium/autokey/
 medium/character_counter/
 medium/compressed_transmission_decoder/
-medium/how_time_flies/
 medium/jammer_defense_network/
 medium/looking_a_bit_rusty/
 medium/radar_tracking/
