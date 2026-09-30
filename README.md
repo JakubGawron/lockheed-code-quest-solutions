@@ -27,7 +27,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-informational">
   <img alt="Platform" src="https://img.shields.io/badge/platform-cross--platform-lightgrey">
   <img alt="Status" src="https://img.shields.io/badge/Status-Learning%20project-yellow">
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey">
+  <img alt="License" src="https://img.shields.io/github/license/JakubGawron/lockheed-code-quest-solutions">
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/JakubGawron/lockheed-code-quest-solutions">
   <img alt="GitHub issues" src="https://img.shields.io/github/issues/JakubGawron/lockheed-code-quest-solutions">
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/JakubGawron/lockheed-code-quest-solutions">
