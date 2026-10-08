@@ -34,7 +34,7 @@
 
 ---
 
-> **Uwaga:** To repozytorium powstało w **celach edukacyjnych** - żeby przed kolejnymi edycjami konkursu Lockheed Martin Code Quest podszlifować umiejętności związane z algorytmami, strukturami danych i programowaniem konkursowym. Code Quest to konkurs **drużynowy** - wziąłem w nim udział dwukrotnie: w **2025** roku (**4. miejsce**) oraz w **2026** roku (**8. miejsce**). To nieoficjalne repozytorium, niezwiązane bezpośrednio z Lockheed Martin.
+> **Uwaga:** To repozytorium powstało w **celach edukacyjnych** - żeby przed kolejnymi edycjami konkursu Lockheed Martin Code Quest podszlifować umiejętności związane z algorytmami, strukturami danych i programowaniem konkursowym. Code Quest to konkurs **drużynowy** - wziąłem w nim udział dwukrotnie: w **2025** roku oraz w **2026** roku. To nieoficjalne repozytorium, niezwiązane bezpośrednio z Lockheed Martin.
 
 ---
 
