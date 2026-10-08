@@ -35,7 +35,7 @@
 
 ---
 
-> **Note:** This repository was created for **learning and preparation purposes** - to sharpen algorithm, data structure, and competitive programming skills ahead of participating in newer editions of the Lockheed Martin Code Quest contest. Code Quest is a **team contest**, and I have taken part in **2** editions so far as part of a team: **2025** (placed **4th**) and **2026** (placed **8th**). It is not an official Lockheed Martin resource.
+> **Note:** This repository was created for **learning and preparation purposes** - to sharpen algorithm, data structure, and competitive programming skills ahead of participating in newer editions of the Lockheed Martin Code Quest contest. Code Quest is a **team contest**, and I have taken part in **2** editions so far as part of a team: **2025** and **2026**. It is not an official Lockheed Martin resource.
 
 ---
 
